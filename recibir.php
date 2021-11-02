@@ -1,8 +1,6 @@
 <?php
 
 if (isset($_POST["submit"])) {
-    //En preg_match es donde van metidas las expresiones regulares
-    //Con filter_var sanitizamos los campos, eliminando carácteres que puedan dar problemas
 
     $_POST["a"] = filter_var($_POST["a"], FILTER_SANITIZE_NUMBER_FLOAT);
 
