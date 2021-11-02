@@ -1,51 +1,40 @@
 <?php require 'includes/header.php' ?>
 
-<h2>Formulario</h2>
-<form action="recibir.php" method="POST" enctype="multipart/form-data">
+<h2>Ejercicio 2 - Formulario</h2>
+<form action="02recibir.php" method="POST" enctype="multipart/form-data">
+
+    <label for="nif">NIF:
+        <input type="text" required name="nif" class="form-control" />
+    </label>
+    </br>
 
     <label for="nombre">Nombre:
-        <input type="text" name="nombre" class="form-control" />
+        <input type="text" required name="nombre" class="form-control" />
     </label>
     </br>
 
     <label for="apellidos">Apellidos:
-        <input type="text" name="apellidos" class="form-control" />
+        <input type="text" required name="apellidos" class="form-control" />
     </label>
     </br>
 
-    <label for="biografia">Biografía:
-        <textarea name="biografia" class="form-control"></textarea>
+    <label for="fecha">Fecha de Nacimiento:
+        <input type="date" required name="fecha" class="form-control" />
     </label>
     </br>
 
     <label for="email">Correo Electrónico:
-        <input type="email" name="email" class="form-control" />
+        <input type="email" required name="email" class="form-control" />
     </label>
     </br>
 
     <label for="password">Contraseña:
-        <input type="password" name="password" class="form-control" />
+        <input type="password" required name="password" class="form-control" />
     </label>
     </br>
 
-    <label for="image">Imagen:
-        <input type="file" name="image" class="form-control" />
-    </label>
-    </br>
-
-    <input type="submit" value="Enviar" name="submit" class="btn btn-success" />
+    <input type="submit" value="Enviar" required name="submit" class="btn btn-success" />
 
 </form>
 
 <?php require 'includes/footer.php'; ?>
-
-<?php
-/*Implemente un formulario HTML con los siguientes campos:
-- Nombre
-- Apellidos
-- Biografía
-- Email
-- Contraseña
-- Imagen
-*/
-?>

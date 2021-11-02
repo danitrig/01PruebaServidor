@@ -33,7 +33,6 @@ if (isset($_POST["submit"])) {
     }
 
 
-
     if (isset($a, $b, $c)) {
 
 
