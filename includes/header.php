@@ -12,5 +12,5 @@
 
 <body> 
     <div class="container">
-    <h1>Ejercicio 1 - Calcular la raíz cuadrada de un polinomio de segundo grado</h1>
+    <h1>Prueba Presencial Tema 1</h1>
     <hr/>

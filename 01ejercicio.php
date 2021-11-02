@@ -1,39 +1,27 @@
 <?php require 'includes/header.php' ?>
 
-<h2>Formulario</h2>
+<h2>Ejercicio 1 - Calcular Raíz Cuadrada de un polinomio de 2º Grado</h2>
+<h3>Introduzca los coeficientes del polinomio de segundo grado</h3>
 <form action="recibir.php" method="POST" enctype="multipart/form-data">
 
-    <label for="nombre">Nombre:
-        <input type="text" name="nombre" class="form-control" />
+<p>Para la fórmula <b>aX^2 + bX + c</b>, introduzca: </p>
+
+    <label for="a">Valor de 'a':
+        <input type="number" name="a" class="form-control" />
     </label>
     </br>
 
-    <label for="apellidos">Apellidos:
-        <input type="text" name="apellidos" class="form-control" />
+    <label for="b">Valor de 'b':
+        <input type="number" name="b" class="form-control" />
+    </label>
+    </br>
+    
+    <label for="c">Valor de 'c':
+        <input type="number" name="c" class="form-control" />
     </label>
     </br>
 
-    <label for="biografia">Biografía:
-        <textarea name="biografia" class="form-control"></textarea>
-    </label>
-    </br>
-
-    <label for="email">Correo Electrónico:
-        <input type="email" name="email" class="form-control" />
-    </label>
-    </br>
-
-    <label for="password">Contraseña:
-        <input type="password" name="password" class="form-control" />
-    </label>
-    </br>
-
-    <label for="image">Imagen:
-        <input type="file" name="image" class="form-control" />
-    </label>
-    </br>
-
-    <input type="submit" value="Enviar" name="submit" class="btn btn-success" />
+    <input type="submit" value="Calcular" name="submit" class="btn btn-success" />
 
 </form>
 
